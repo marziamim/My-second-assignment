@@ -1,0 +1,217 @@
+
+
+
+/* share style */
+.display-flex{
+    display: flex;
+}
+.main{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.background-color{
+    background-color: rgb(17, 17, 17); 
+    /* rgba(119, 119, 119, 0); */
+}
+.btn{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: .8rem;
+    padding: 6px 16px 6px 16px;
+    border: none;
+}
+.btn-2{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: .8rem;
+    padding: 13px 30px 13px 30px;
+    border: none;
+}
+.description{
+    font-weight: 400;
+    font-size: .8rem;
+    color: rgba(153, 146, 146, 0.5);
+    
+}
+.heading{
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+}
+.heading-1{
+    font-weight: 900;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/* nav style  */
+.navber {
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin-right: 35px;
+    font-weight: 400;
+    font-size: 1rem;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.fitness{
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(230, 83, 60);
+}
+/* banner style  */
+.banner{
+    align-items: center;
+}
+.banner-2{
+    margin-top: 64px;
+    margin-right: 100px;
+    margin-bottom: 76px;
+}
+.banner-heading{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.banner-btn{
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: .8rem;
+    padding: 11px 30px 11px 30px;
+    background-color: black;
+    border-color: lightgrey;
+    margin-left: 10px;
+}
+.banner-pic{
+    width: 230px;
+    height: 385px;
+}
+.shape{
+    font-style: ;
+}
+/* card style  */
+.card{
+    text-align: center;
+}
+.image{
+    width: 140px;
+    height: 130px;
+    border-radius: 50%;
+}
+.card-heading{
+    font-weight: 600;
+    font-size: .9rem;
+    color: rgb(255, 255, 255);
+}
+/* run banner style  */
+.run-img{
+    width: 245px;
+    height: 210px;
+    object-fit: none;
+    object-position: 60% 25%;
+    margin: 25px 16px;
+    border-radius: 10px;
+}
+.run-section{
+    /* width: 810px; */
+    /* height: 260px; */
+    margin: 65px ;
+    background-color: Rgb(34,34,34);
+    border-radius: 10px;
+
+}
+.run-content{
+    align-items: center;
+    margin: 22px 25px 22px 30px;
+}
+/* exarcise part  */
+#img-1{
+   background:linear-gradient(rgba(6, 255, 210, 0.5),rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
+   background-position: center;
+   height: 200px;
+   width: 300px;
+}
+#img-2{
+    background:linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(../images/exercise2.png);
+    height: 200px;
+   width: 500px;
+}
+#img-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise3.png);
+    height: 200px;
+   width: 300px;
+}
+#img-4{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/exercise4.png);
+    height: 200px;
+    width: 400px;
+}
+#img-5{
+    background: linear-gradient(rgba(66, 255, 0, 0.3),rgba(66, 255, 0, 0.3)), url(../images/exercise5.jpg);
+    height: 200px;
+    width: 300px;
+}
+#img-6{
+    background: linear-gradient(rgba(0, 71, 255, 0.3),rgba(0, 71, 255, 0.3)), url(../images/exercise6.jpg);
+    height: 200px;
+    width: 400px;
+}
+.collage{
+    width: 100%;
+    margin: 40px;
+}
+/* form style */
+.form-heading{
+  margin-left: 300px;
+}
+#th{
+    font-weight: 500;
+    font-size: .9rem;
+    color: rgb(255, 255, 255);
+}
+table,th,td{
+    border: 1px solid rgb(43, 41, 41);
+    border-collapse: collapse;
+    padding: 15px 35px;
+}
+/* footer style  */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer-description{
+    width: 400px;
+}
+#footer-h{
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgb(230, 83, 60);
+    margin: 0;
+}
+div ul li{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(173, 171, 171, 0.5);
+    padding: 5px;
+    margin-left: 0;
+    list-style: none;
+}
